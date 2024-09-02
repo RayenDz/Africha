@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الأسرة - صولد وتحطيم الأسعار</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: right;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image: url('https://i.imgur.com/vPcYu2m.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .banner {
+            background-color: #d9534f;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            height: 40px;
+        }
+
+        .banner-text {
+            position: absolute;
+            width: 100%;
+            white-space: nowrap;
+            animation: slide 20s linear infinite;
+            font-size: 20px;
+            line-height: 40px;
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            cursor: pointer;
+        }
+
+        .product h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .product p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            font-size: 18px;
+            color: #d9534f;
+            font-weight: bold;
+        }
+
+        .product .btn {
+            display: block;
+            background-color: #d9534f;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        .btn-contact {
+            background-color: #007bff;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="banner">
+        <div class="banner-text">بيع جميع الأسرة بأسعار تنافسية!</div>
+    </div>
+
+    <header>
+        <h1>صولد وتحطيم الأسعار - أجود أنواع الأسرة</h1>
+        <p>أسعار مميزة وضمان يصل إلى 8 سنوات!</p>
+        <p>للطلب أو مزيد من المعلومات يرجى التواصل بنا عبر الخاص أو الاتصال على <a href="tel:+213552656078">0552656078</a></p>
+    </header>
+
+    <nav>
+        <a href="#">الرئيسية</a>
+        <a href="#">المنتجات</a>
+        <a href="#">العروض الخاصة</a>
+        <a href="#">التواصل</a>
+    </nav>
+
+    <div class="container">
+        <h2>المنتجات المتاحة:</h2>
+        <div class="product-list">
+            <div class="product">
+                <a href="https://i.imgur.com/NgZ5Mag.jpeg" data-lightbox="products" data-title="سرير 1 مكان D25">
+                    <img src="https://i.imgur.com/NgZ5Mag.jpeg" alt="سرير 1 مكان D25">
+                </a>
+                <h2>سرير 1 مكان D25</h2>
+                <p>20 سم سمك</p>
+                <p class="product-price">65x180 سم: 5500 دج</p>
+                <p class="product-price">70x190 سم: 6000 دج</p>
+                <p class="product-price">80x190 سم: 6500 دج</p>
+                <p class="product-price">90x190 سم: 7000 دج</p>
+                <p class="product-price">120x190 سم: 9800 دج</p>
+                <a href="https://www.facebook.com/messages/t/YOUR_FACEBOOK_ID" class="btn">راسلنا عبر الفيسبوك</a>
+                <a href="tel:+213552656078" class="btn btn-contact">اتصل بنا الآن</a>
+            </div>
+
+            <div class="product">
+                <a href="https://i.imgur.com/vPcYu2m.jpeg" data-lightbox="products" data-title="سرير 2 أماكن D25">
+                    <img src="https://i.imgur.com/vPcYu2m.jpeg" alt="سرير 2 أماكن D25">
+                </a>
+                <h2>سرير 2 أماكن D25</h2>
+                <p>20 سم سمك</p>
+                <p class="product-price">140x190 سم: 12000 دج</p>
+                <p class="product-price">160x190 سم: 13000 دج</p>
+                <p class="product-price">180x200 سم: 18500 دج</p>
+                <a href="https://www.facebook.com/messages/t/YOUR_FACEBOOK_ID" class="btn">راسلنا عبر الفيسبوك</a>
+                <a href="tel:+213552656078" class="btn btn-contact">اتصل بنا الآن</a>
+            </div>
+
+            <div class="product">
+                <a href="https://i.imgur.com/pxTYpyw.jpeg" data-lightbox="products" data-title="سرير 1 مكان D30">
+                    <img src="https://i.imgur.com/pxTYpyw.jpeg" alt="سرير 1 مكان D30">
+                </a>
+                <h2>سرير 1 مكان D30</h2>
+                <p>20 سم سمك</p>
+                <p class="product-price">65x180 سم: 6200 دج</p>
+                <p class="product-price">70x190 سم: 7000 دج</p>
+                <p class="product-price">80x190 سم: 7600 دج</p>
+                <p class="product-price">90x190 سم: 8000 دج</p>
+                <p class="product-price">120x190 سم: 12000 دج</p>
+                <a href="https://www.facebook.com/messages/t/YOUR_FACEBOOK_ID" class="btn">راسلنا عبر الفيسبوك</a>
+                <a href="tel:+213552656078" class="btn btn-contact">اتصل بنا الآن</a>
+            </div>
+
+            <div class="product">
+                <a href="https://i.imgur.com/Z1KVxkF.jpeg" data-lightbox="products" data-title="سرير 2 أماكن D30">
+                    <img src="https://i.imgur.com/Z1KVxkF.jpeg" alt="سرير 2 أماكن D30">
+                </a>
+                <h2>سرير 2 أماكن D30</h2>
+                <p>20 سم سمك</p>
+                <p class="product-price">140x190 سم: 14000 دج</p>
+                <p class="product-price">160x190 سم: 15500 دج</p>
+                <p class="product-price">180x200 سم: 19500 دج</p>
+                <a href="https://www.facebook.com/messages/t/YOUR_FACEBOOK_ID" class="btn">راسلنا عبر الفيسبوك</a>
+                <a href="tel:+213552656078" class="btn btn-contact">اتصل بنا الآن</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 متجر الأسرة - ولاية عين الدفلى، خميس مليانة. خدمة التوصيل متوفرة لولاية عين الدفلى والولايات المجاورة.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script>
+       document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+    document.onkeydown = function(e) {
+        if (e.ctrlKey && (e.key === 'u' || e.key === 's' || e.key === 'c' || e.key === 'p')) {
+            e.preventDefault();
+        }
+    };
+
+    </script>
+</body>
+</html>
+
+
